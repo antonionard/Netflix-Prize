@@ -12,28 +12,29 @@ The Netflix Prize was a competition held to improve the accuracy of movie recomm
 ## 🧠 Implemented Methods
 This project explores and compares several recommendation strategies:
 
-### Singular Value Decomposition (SVD)
+### ☑️Singular Value Decomposition (SVD)
 A matrix factorization technique that decomposes the user-item rating matrix into latent features, enabling collaborative filtering based on learned patterns.
 
-### Non-negative Matrix Factorization (NMF)
+### ☑️Non-negative Matrix Factorization (NMF)
 A matrix factorization method constrained to non-negative values. It helps interpret the latent features as additive components. Grid search was used for hyperparameter tuning.
 
-### Autoencoders
+### ☑️Autoencoders
 Neural networks trained to reconstruct the input rating matrix. These models capture complex, non-linear relationships between users and items.
 
-### Feedforward Neural Networks (NN)
+### ☑️Feedforward Neural Networks (NN)
 A basic multilayer perceptron trained to predict user ratings, using user and movie indices as inputs encoded with embeddings.
 
-### Principal Component Analysis (PCA)
+### ☑️Principal Component Analysis (PCA)
 Used to reduce the dimensionality of the rating matrix, retaining the most significant variance components.
 
-### Preprocessing Techniques
+### ☑️Preprocessing Techniques
 Custom tools for filtering, normalizing, splitting, and aggregating data—key to preparing robust training datasets and analyzing rating distributions.
 
 ---
 
 ## 📁 Repository Structure
 
+```bash
 
 /Netflix_Prize_Challange
 ├──📁 code/                             # Python source files
@@ -70,7 +71,7 @@ Custom tools for filtering, normalizing, splitting, and aggregating data—key t
 ├── Netflix_Prize.pdf                 # Final report describing methodology, results, and evaluation
 ├── README.md                         # Project Documentation
 └── LICENSE                           # MIT License
-
+```
 ---
 
 ## 📊 Results
